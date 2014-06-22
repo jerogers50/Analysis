@@ -57,6 +57,6 @@
   write.table(tidy_data, file = "./Analysis/tidy_data.txt")
   
 ## write codebook to disk
-  write.table(paste("* ", names(tidy_data), sep=""), file="./Analysis/CodeBook.md", quote=FALSE,
+  write.table(paste("* ", summary(tidy_data), sep=""), file="./Analysis/CodeBook.md", quote=FALSE,
               row.names=FALSE, col.names=FALSE, sep="\t")
   
