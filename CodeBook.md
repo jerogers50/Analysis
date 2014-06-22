@@ -3,10 +3,8 @@
 Subject   1
           Number of volunteers in study between age 19-48
           1-30
-          Test subjects
-          2, 4, 9, 10, 12, 13, 18, 20, 24
-          Train Subjects
-          1, 3, 5-8, 11, 14-17, 19, 21-23, 25-30
+          1. Test subjects. 2, 4, 9, 10, 12, 13, 18, 20, 24
+          2. Train Subjects 1, 3, 5-8, 11, 14-17, 19, 21-23, 25-30
 
 Activity_Label    1
           Activities performed by volunteers  
