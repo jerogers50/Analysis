@@ -1,4 +1,4 @@
-                    Tidy_Data - Code Book
+                    Tidy_Data - CodeBook
                     
 Subject   1
 
@@ -19,179 +19,341 @@ Activity_Label    1
 
 tBodyAcc-mean()-X   1
 
+          The average accelaration time for the body accelaration signals for the X axis 
           range from 0.2215982 to .301461
 
 tBodyAcc-mean()-Y   1
-
+          
+          The average accelaration time for the body accelaration signals for the Y axis 
           range from -0.04051395 to -0.001308288 
 
 tBodyAcc-mean()-Z
 
 
-
+          The average accelaration time for the body accelaration signals for the Z axis
           range from -0.1525139 to -0.07537847
           
 tBodyAcc-std()-X               
 
-
-
+          The standard deviation of accelaration time for the body accelaration signals for the X axis
           range from -0.9960686 to 0.6269171
           
 tBodyAcc-std()-Y
 
-
-
+          The standard deviation of accelaration time for the body accelaration signals for the Y axis
           range from -0.9902409 to 0.616937
           
-tBodyAcc-std()-Z                
+tBodyAcc-std()-Z
 
-tGravityAcc-mean()-X           
+          The standard deviation of accelaration time for the body accelaration signals for the Z axis
+          range from -0.9876587 to 0.6090179
 
+tGravityAcc-mean()-X
+
+          The mean of accelaration time for the gravity accelaration signals for the X axis
+          range from -0.6800432 to 0.9745087
+          
 tGravityAcc-mean()-Y
 
-"tGravityAcc-mean()-Z"
+          The mean of accelaration time for the gravity accelaration signals for the Y axis
+          range from -0.4798948 to 0.9565938
+          
+tGravityAcc-mean()-Z
 
-"tGravityAcc-std()-X"            
+          The mean of accelaration time for the gravity accelaration signals for the Z axis
+          range from -0.4950887 to 0.957873
+          
+tGravityAcc-std()-X
 
-tGravityAcc-std()-Y"
+          The standard deviation of accelaration time for the gravity accelaration signals for the X axis
+          range from -0.9967642 to -0.8295549
+          
+tGravityAcc-std()-Y
 
-"tGravityAcc-std()-Z"
+          The standard deviation of accelaration time for the gravity accelaration signals for the Y axis
+          range from -0.9942476 to -0.6435784
+          
+tGravityAcc-std()-Z
 
-"tBodyAccJerk-mean()-X"
+          The standard deviation of accelaration time for the gravity accelaration signals for the Z axis
+          range from -0.9909572 to -0.6101612
+          
+tBodyAccJerk-mean()-X
 
-tBodyAccJerk-mean()-Y"
+        The mean of body linear acceleration derived in time to obtain Jerk signals for the X axis
+        range from 
+tBodyAccJerk-mean()-Y
 
-"tBodyAccJerk-mean()-Z"
+        The mean of body linear acceleration derived in time to obtain Jerk signals for the Y axis
 
-"tBodyAccJerk-std()-X"
+tBodyAccJerk-mean()-Z
 
+        The mean of body linear acceleration derived in time to obtain Jerk signals for the Z axis
 
-tBodyAccJerk-std()-Y"
+tBodyAccJerk-std()-X
 
-"tBodyAccJerk-std()-Z"
+        The standard deviation of body linear acceleration derived in time to obtain Jerk signals for the X axis
 
-"tBodyGyro-mean()-X"
+tBodyAccJerk-std()-Y
 
-tBodyGyro-mean()-Y"
+        The standard deviation of body linear acceleration derived in time to obtain Jerk signals for the Y axis
 
-"tBodyGyro-mean()-Z"
+tBodyAccJerk-std()-Z
 
-"tBodyGyro-std()-X"
+        The standard deviation of body linear acceleration derived in time to obtain Jerk signals for the Z axis
 
+tBodyGyro-mean()-X
 
-tBodyGyro-std()-Y"
+        The body mean of angular velocity derived in time to obtain jerk signals for the X axis
 
-"tBodyGyro-std()-Z"  
+tBodyGyro-mean()-Y
 
-"tBodyGyroJerk-mean()-X"
+        The body mean of angular velocity derived in time to obtain jerk signals for the Y axis
 
-tBodyGyroJerk-mean()-Y"  
+tBodyGyro-mean()-Z
 
-"tBodyGyroJerk-mean()-Z" 
+        The body mean of angular velocity derived in time to obtain jerk signals for the Z axis
 
-"tBodyGyroJerk-std()-X"
+tBodyGyro-std()-X
 
-tBodyGyroJerk-std()-Y" 
+        The standard deviation for body of angular velocity derived in time to obtain jerk signals for the X axis
 
-"tBodyGyroJerk-std()-Z" 
+tBodyGyro-std()-Y
 
-"tBodyAccMag-mean()"
+        The standard deviation for body of angular velocity derived in time to obtain jerk signals for the Y axis
 
+tBodyGyro-std()-Z
 
-tBodyAccMag-std()"
+        The standard deviation for body of angular velocity derived in time to obtain jerk signals for the Z axis
 
-"tGravityAccMag-mean()"
+tBodyGyroJerk-mean()-X
 
-"tGravityAccMag-std()" 
+        The mean for body of angular velocity derived in time to obtain jerk signals for the X axis
 
-tBodyAccJerkMag-mean()"
+tBodyGyroJerk-mean()-Y
 
-"tBodyAccJerkMag-std()"
+        The mean for body of angular velocity derived in time to obtain jerk signals for the Y axis
 
-"tBodyGyroMag-mean()"
+tBodyGyroJerk-mean()-Z
 
-tBodyGyroMag-std()"
+        The mean for body of angular velocity derived in time to obtain jerk signals for the Z axis
 
-"tBodyGyroJerkMag-mean()"
+tBodyGyroJerk-std()-X
 
-"tBodyGyroJerkMag-std()"
+        The standard deviation for body of angular velocity derived in time to obtain jerk signals for the X axis
 
-fBodyAcc-mean()-X" 
+tBodyGyroJerk-std()-Y
 
-"fBodyAcc-mean()-Y" 
+        The standard deviation for body of angular velocity derived in time to obtain jerk signals for the Y axis
 
-"fBodyAcc-mean()-Z" 
+tBodyGyroJerk-std()-Z
 
-fBodyAcc-std()-X"  
+        The standard deviation for body of angular velocity derived in time to obtain jerk signals for the Z axis
 
-"fBodyAcc-std()-Y" 
+tBodyAccMag-mean()
 
-"fBodyAcc-std()-Z"
+        The mean time for the body accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-fBodyAcc-meanFreq()-X" 
 
-"fBodyAcc-meanFreq()-Y" 
+tBodyAccMag-std()
 
-"fBodyAcc-meanFreq()-Z" 
+        The standard deviation of time for the body accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-fBodyAccJerk-mean()-X" 
+tGravityAccMag-mean()
 
-"fBodyAccJerk-mean()-Y"  
+        The mean of time for the gravity accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-"fBodyAccJerk-mean()-Z"
+tGravityAccMag-std()
 
-fBodyAccJerk-std()-X" 
+        The standard deviation of time for the gravity accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-"fBodyAccJerk-std()-Y" 
+tBodyAccJerkMag-mean()
 
-"fBodyAccJerk-std()-Z"   
+        The mean of time for the body linear accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-fBodyAccJerk-meanFreq()-X"  
+tBodyAccJerkMag-std()
 
-"fBodyAccJerk-meanFreq()-Y" 
+        The standard deviation of time for the body linear accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-"fBodyAccJerk-meanFreq()-Z"
+tBodyGyroMag-mean()
 
-fBodyGyro-mean()-X"  
+        The mean of time for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-"fBodyGyro-mean()-Y"   
+tBodyGyroMag-std()
+  
+        The standard deviation of time for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-"fBodyGyro-mean()-Z" 
+tBodyGyroJerkMag-mean()
 
-fBodyGyro-std()-X"  
+        The mean of time for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-"fBodyGyro-std()-Y"  
+tBodyGyroJerkMag-std()
 
-"fBodyGyro-std()-Z"   
+        The standard deviation of time for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
 
-fBodyGyro-meanFreq()-X"  
+fBodyAcc-mean()-X   1
 
-"fBodyGyro-meanFreq()-Y"  
+          The average accelaration frequency for the body accelaration signals for the X axis 
+          
 
-"fBodyGyro-meanFreq()-Z" 
+fBodyAcc-mean()-Y   1
+          
+          The average accelaration frequency for the body accelaration signals for the Y axis 
+           
 
-fBodyAccMag-mean()"  
+fBodyAcc-mean()-Z
 
-"fBodyAccMag-std()"   
+          The average accelaration frequency for the body accelaration signals for the Z axis
+          
+          
+fBodyAcc-std()-X               
 
-"fBodyAccMag-meanFreq()" 
+          The standard deviation of accelaration frequency for the body accelaration signals for the X axis
+          
+          
+fBodyAcc-std()-Y
 
-fBodyBodyAccJerkMag-mean()" 
+          The standard deviation of accelaration frequency for the body accelaration signals for the Y axis
+          
+          
+fBodyAcc-std()-Z
 
-"fBodyBodyAccJerkMag-std()"    
+          The standard deviation of accelaration frequency for the body accelaration signals for the Z axis
+          
+fBodyAcc-meanFreq()-X   1
 
-"fBodyBodyAccJerkMag-meanFreq()" 
+          The average accelaration frequency for the body accelaration signals for the X axis 
+          
 
-fBodyBodyGyroMag-mean()"   
+fBodyAcc-meanFreq()-Y   1
+          
+          The average accelaration frequency for the body accelaration signals for the Y axis 
+          
 
-"fBodyBodyGyroMag-std()"  
+fBodyAcc-meanFreq()-Z
 
-"fBodyBodyGyroMag-meanFreq()" 
+          The average accelaration frequency for the body accelaration signals for the Z axis
+          
 
-fBodyBodyGyroJerkMag-mean()"    
+fBodyAccJerk-mean()-X
 
-"fBodyBodyGyroJerkMag-std()"     
+        The mean of body linear acceleration derived in frequency to obtain Jerk signals for the X axis
 
-"fBodyBodyGyroJerkMag-meanFreq()"
+fBodyAccJerk-mean()-Y
 
-========
+        The mean of body linear acceleration derived in frequency to obtain Jerk signals for the Y axis
+
+fBodyAccJerk-mean()-Z
+
+        The mean of body linear acceleration derived in frequency to obtain Jerk signals for the Z axis
+
+fBodyAccJerk-std()-X
+
+        The standard deviation of body linear acceleration derived in frequency to obtain Jerk signals for the X axis
+
+fBodyAccJerk-std()-Y
+
+        The standard deviation of body linear acceleration derived in frequency to obtain Jerk signals for the Y axis
+
+fBodyAccJerk-std()-Z
+
+        The standard deviation of body linear acceleration derived in frequency to obtain Jerk signals for the Z axis
+
+fBodyAccJerk-meanFreq()-X
+
+        The mean of body linear acceleration derived in frequency to obtain Jerk signals for the X axis
+
+fBodyAccJerk-meanFreq()-Y
+
+        The mean of body linear acceleration derived in frequency to obtain Jerk signals for the Y axis
+
+fBodyAccJerk-meanFreq()-Z
+
+        The mean of body linear acceleration derived in frequency to obtain Jerk signals for the Z axis
+        
+fBodyGyro-mean()-X
+
+        The body mean of angular velocity derived in frequency to obtain jerk signals for the X axis
+
+fBodyGyro-mean()-Y
+
+        The body mean of angular velocity derived in frequency to obtain jerk signals for the Y axis
+
+fBodyGyro-mean()-Z
+
+        The body mean of angular velocity derived in frequency to obtain jerk signals for the Z axis
+
+fBodyGyro-std()-X
+
+        The standard deviation for body of angular velocity derived in frequency to obtain jerk signals for the X axis
+
+fBodyGyro-std()-Y
+
+        The standard deviation for body of angular velocity derived in frequency to obtain jerk signals for the Y axis
+
+fBodyGyro-std()-Z
+
+        The standard deviation for body of angular velocity derived in frequency to obtain jerk signals for the Z axis
+
+fBodyGyro-meanFreq()-X
+
+        The body mean of angular velocity derived in frequency to obtain jerk signals for the X axis
+
+fBodyGyro-meanFreq()-Y
+
+        The body mean of angular velocity derived in frequency to obtain jerk signals for the Y axis
+
+fBodyGyro-meanFreq()-Z
+
+        The body mean of angular velocity derived in frequency to obtain jerk signals for the Z axis
+        
+        
+fBodyAccMag-mean()
+
+        The mean frequency for the body accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
+
+fBodyAccMag-std()
+
+        The standard deviation of frequency for the body accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
+        
+fBodyAccMag-meanFreq()
+
+        The mean frequency for the body accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
+        
+
+fBodyAccJerkMag-mean()
+
+        The mean of frequency for the body linear accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
+
+fBodyAccJerkMag-std()
+
+        The standard deviation of frequency for the body linear accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
+        
+fBodyAccJerkMag-meanFreq()
+
+        The mean of frequency for the body linear accelaration magnitude of these three-dimensional signals calculated using the Euclidean norm
+
+fBodyGyroMag-mean()
+
+        The mean of frequency for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
+
+fBodyGyroMag-std()
+  
+        The standard deviation of frequency for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
+
+fBodyGyroMag-meanFreq()
+
+        The mean of frequency for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
+        
+fBodyGyroJerkMag-mean()
+
+        The mean of frequency for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
+
+fBodyGyroJerkMag-std()
+
+        The standard deviation of frequency for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm
+        
+fBodyGyroJerkMag-meanFreq()
+
+        The mean of frequency for the body angular velocity magnitude of these three-dimensional signals calculated using the Euclidean norm        
+
