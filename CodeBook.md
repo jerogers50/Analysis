@@ -1,3 +1,5 @@
+Column Names
+==============
 * subject
 * Activity_Label
 * tBodyAcc-mean()-X
@@ -80,7 +82,8 @@
 * fBodyBodyGyroJerkMag-std()
 * fBodyBodyGyroJerkMag-meanFreq()
 
-
+Column Summaries
+=============================
 * Min.   : 1.0  
 * 1st Qu.: 8.0  
 * Median :15.5  
