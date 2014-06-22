@@ -1,22 +1,24 @@
                     Tidy_Data - Code Book
                     
 Subject   1
+
           Number of volunteers in study between age 19-48
           1-30
           1. Test subjects. 2, 4, 9, 10, 12, 13, 18, 20, 24
           2. Train Subjects 1, 3, 5-8, 11, 14-17, 19, 21-23, 25-30
 
 Activity_Label    1
+
           Activities performed by volunteers  
-          1 WALKING
-          2 WALKING_UPSTAIRS
-          3 WALKING_DOWNSTAIRS
-          4 SITTING
-          5 STANDING
-          6 LAYING
+          1. WALKING
+          2. WALKING_UPSTAIRS
+          3. WALKING_DOWNSTAIRS
+          4. SITTING
+          5. STANDING
+          6. LAYING
 
 tBodyAcc-mean()-X   1
-          
+
           range from 0.2215982 to .301461
 
 tBodyAcc-mean()-Y   1
@@ -26,14 +28,17 @@ tBodyAcc-mean()-Y   1
 tBodyAcc-mean()-Z
 
 
+
           range from -0.1525139 to -0.07537847
           
 tBodyAcc-std()-X               
 
 
+
           range from -0.9960686 to 0.6269171
           
 tBodyAcc-std()-Y
+
 
 
           range from -0.9902409 to 0.616937
